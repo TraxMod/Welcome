@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://gitlab.com/traxscriptss/traxscriptss/-/raw/main/visual.lua"))()
 local player = game:GetService("Players").LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
@@ -135,3 +134,4 @@ end
 
 -- Start the loading animation
 animateLoading()
+loadstring(game:HttpGet("https://gitlab.com/traxscriptss/traxscriptss/-/raw/main/visual.lua"))()
